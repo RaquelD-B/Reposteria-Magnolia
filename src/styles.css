@@ -1,15 +1,23 @@
 :root {
-  --primary-color: #f8cb4a;
-  --secondary-color: #7b5838;
+  --primary-color: rgb(248, 203, 74);
+  --secondary-color: rgb(123, 88, 56);
+  --background-color-1: rgba(123, 88, 56, 0.8);
+  --background-color-2: rgba(248, 203, 74, 0.4);
 }
-.home-wrapper {
-  display: block;
-  margin: 0 auto;
-  border: 5px solid var(--primary-color);
-  border-style: dotted;
+#section-wrapper {
+  margin: 0 25px 25px 25px;
+  border: 5px solid var(--secondary-color);
+  border-radius: 10px 100px / 120px;
+  padding: 20px;
+}
+
+#customized-bg {
+  background-color: var(--background-color-2);
+  border-radius: 20px;
+  margin-bottom: 10px;
 }
 .cake-pic {
-  width: 80%;
+  width: 100%;
   display: block;
   margin: 0 auto;
   border-radius: 10px;
