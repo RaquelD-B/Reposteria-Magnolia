@@ -4,9 +4,10 @@
   --background-color-1: rgba(123, 88, 56, 0.8);
   --background-color-2: rgba(248, 203, 74, 0.4);
 }
-#section-wrapper {
+h1,
+h2 {
+  font-family: "Comic Neue", cursive;
 }
-
 #customized-bg {
   background-color: var(--background-color-2);
   border-radius: 20px;
